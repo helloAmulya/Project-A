@@ -1,0 +1,50 @@
+#lbi {
+    height: 220px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#btext {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+
+#belo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.text-brand,
+.t-b1,
+.t-b2 {
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.text-brand {
+    color: #6674CC;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.t-b1 {
+    color: #81868F;
+    text-align: center;
+    margin: 0 10px
+}
+
+.t-b2 {
+    color: white;
+    text-align: right;
+    background-color: #1DD1A1;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
